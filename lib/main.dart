@@ -1,3 +1,4 @@
+import 'package:connex_chat/screens/bottom_navi.dart';
 import 'package:connex_chat/screens/intro_page.dart';
 import 'package:connex_chat/screens/login_page.dart';
 import 'package:flutter/material.dart';
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => IntroPage(),
         '/login': (context) => LoginPage(),
+        '/bottom_navi': (context) => BottomNavi()
       },
     );
   }
